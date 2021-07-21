@@ -25,7 +25,7 @@
 
 ![ws name.](media/udacity-15.png)
 
-6. Here you have lab guide under **Lab Guide** tab. It has instructions in it that should be followed in order to successfully complete the lab.
+6. Here you have three tabs - **Lab Guide, Lab Environment** and **Help**. The **Lab Guide** tab has instructions in it that should be followed in order to successfully complete the lab.
 
 ![ws name.](media/udacity-16.png)
 
