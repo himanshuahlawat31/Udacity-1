@@ -62,18 +62,17 @@
 ![ws name.](media/udacity-14.png)
 
 
-## Features
+## CloudLabs Features
+
+In this section we will learn about the following features offered by CloudLabs:
 
 1. Enable Attendee Tracking
-
 2. Enable Hot Instances 
-
 3. Allow User to Extend lab
 
+Let's see how each of the feature works:
 
-### **1. Enable Attendee Tracking**
-
-**Enable Attendee Tracking** feature helps to track user's activity in their lab environment and perform certain actions termed as **Time Out Operation**. The operations are listed below:
+**1. Enable Attendee Tracking:** This feature helps to track user's activity in their lab environment and perform certain actions termed as **Time Out Operation**. The operations are listed below:
 
 * **Resource Stop -** Virtual machines will be stopped.
 * **Delete Environment -** Lab environment will be deleted.
@@ -121,18 +120,13 @@ From here we will learn more about the feature with the help of an example.
 
 * **Limit Hot Instance Life:** In this feature, a duration is setup to delete the hot instances. Once the duration is exhausted, hot instance will delete. This feature is used to avoid having unused hot instances.
 
-Let's say, for a workshop we have user count less than expected, so we will end up with unused hot instances. In this case, this feature will act according to the duration setup in it, such as we setup 60 minutes. Therefore, if a hot instance is not allocated to a user till 60 minutes, it will automatically get deleted.
+  Let's say, for a workshop we have user count less than expected, so we will end up with unused hot instances. In this case, this feature will act according to the duration setup in it, such as we setup 60 minutes. Therefore, if a hot instance is not allocated to a user till 60 minutes, it will automatically get deleted.
 
 
 
+**3. Allow User to Extend lab:** This feature helps a user to extend the duration of their lab environment. One can setup the limit of duration extension for a user, this duration will be added up with their actual lab duration.
 
-
-
-
-Allow User to Extend lab
-
-if enabled u get - Max Limit of Duration Extension by User (Minutes) 
-
+For example,
 
 
 
