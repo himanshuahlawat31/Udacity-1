@@ -7,19 +7,19 @@
 
 1. 
 
-![ws name.](media/udacity-08.png)
+![ws name.](media/udacity-01.png)
 
 2. 
 
-![ws name.](media/udacity-01.png)
+![ws name.](media/udacity-02.png)
 
 3. 
 
-![ws name.](media/udacity-02.png)
+![ws name.](media/udacity-03.png)
 
 4. 
 
-![ws name.](media/udacity-03.png)
+![ws name.](media/udacity-08.png)
 
 5. 
 
