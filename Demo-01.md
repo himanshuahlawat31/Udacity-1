@@ -126,7 +126,12 @@ From here we will learn more about the feature with the help of an example.
 
 **3. Allow User to Extend lab:** This feature helps a user to extend the duration of their lab environment. One can setup the limit of duration extension for a user, this duration will be added up with their actual lab duration.
 
-For example,
+* For example, a user is performing a lab with lab duration of 60 minutes. Now using this feature, a duration of 30 minutes setup. 
+      
+     * When user will be left with 15 minutes, he will get a popup message asking him if he wants to extend his lab for 15 minutes. 
+     * In case user is not done with the lab, he can opt-in to extend the duration. The popup will come on a gap of 15 minutes each. 
+     * As we had a limit of 30 minutes, the user will get the extension popup twice that makes 15 minutes + 15 minutes = 30 minutes i.e., total extension limit.
+     * This way, user will have 90 minutes in total to perform the lab.
 
 
 
