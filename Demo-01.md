@@ -71,22 +71,22 @@
 
 ### **1. Enable Attendee Tracking & Time Out Operation**
 
-This feature tracks user's activity in their lab environment and perform certain actions termed as Time Out Operation. The actions are listed below:
+**Enable Attendee Tracking** feature helps to track user's activity in their lab environment and perform certain actions termed as **Time Out Operation**. The operations are listed below:
 
-* Resource Stop - Virtual machines will be stopped.
-* Delete Environment - Lab environment will be deleted.
+* **Resource Stop -** Virtual machines will be stopped.
+* **Delete Environment -** Lab environment will be deleted.
 
-In case a user is inactive in the lab environment for a particular span of time, then as per the configurations of the enviornment, one of the above mentioned action will be imposed on that user's environment. 
-
-The time period of inactivity by a user is termed as Environment Idle Timeout that will configured in minutes.
+In case a user is inactive in the lab environment for a particular span of time, then as per the configurations of the enviornment, one of the above mentioned operation will be imposed on that user's environment. The time period of inactivity by a user is termed as **Environment Idle Timeout** that will configured in minutes.
 
 From here we will learn more about the feature with the help of an example. 
 
-1. Let's say we have a user **User01**, he has Environment Idle Timeout set to 10 minutes and Time Out Operation set to Resource Stop.
+1. Let's say we have a user **User01** and he has:
+* **Environment Idle Timeout** set to **10 minutes** 
+* **Time Out Operation** set to **Resource Stop**
 
-2. User01 is performing the lab, then he takes a break which means his environment will be idle till he starts again. So as per the Environment Idle Timeout, all the resources(to be precise - all the Virtual machines) of his environment will be stopped as Time out operation was set to Resource Stop.
+2. User01 is performing the lab, then he takes a break which means his environment will be idle till he starts again. So as per the **Environment Idle Timeout**, once he reaches to the inacitvity time limit(i.e., 10 minutes), all the resources of his environment will stop of as **Time out operation** was set to **Resource Stop**.
 
-3. Once User01 is back, he will have a note similar to the image shown below. It will say that RDP Gateway is not running which means your host VM is in stopped state.
+3. Once User01 is back, he will have a note similar to the image shown below. It will say that **RDP Gateway is not running** which means your host VM is in stopped state.
 
 ![ws name.](media/udacity-09.png)
 
@@ -94,7 +94,7 @@ From here we will learn more about the feature with the help of an example.
 
 ![ws name.](media/udacity-10.png)
 
-5. Select **OK** on the popup asking you to confirm **Start All Virtual Machines**.
+5. Select **OK** on the popup asking you to confirm - **Start All Virtual Machines**.
 
 ![ws name.](media/udacity-11.png)
 
@@ -126,19 +126,6 @@ Enable Hot Instances
 if enabled u get - Optimize Host Instances VM Cost 
 
 Delay Time (in Minutes)  Minimum Available Instances  Limit Hot Instance Life    Hot Instance Life Time (Minutes) 
-
-
-
-
-
-
-
-------------------
-Enable Attendee Tracking 
-if enabled u get - Environment Idle Timeout (in Mins)
-
-Time Out Operation - Resoucre stop or Delete Environment
-
 
 
 
