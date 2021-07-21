@@ -36,39 +36,73 @@
 8. In **Lab Environment** tab, you have another section that is **Lab Resources**. In this section, you will have the following items:
 * All those virtual machines listed which are present in your lab environment
 * Status of the VM as if it's running or deallocated.
-* Three action buttons - 
-      **1. Refresh:** Select this button to refresh the page and see the latest status of the Virtual Machines.
-      **2. Start:** Select this button to start all the Virtual Machines at the same time.
-      **3. Stop:** Select this button to de-allocate all the Virtual Machines at the same time.
+* Three action buttons: 
+      
+     * **(1) Refresh:** Select this button to refresh the page and see the latest status of the Virtual Machines.
+      
+     * **(2) Start:** Select this button to start all the Virtual Machines at the same time.
+      
+     * **(3) Stop:** Select this button to de-allocate all the Virtual Machines at the same time.
 
 ![ws name.](media/udacity-04.png)
 
-9. In case you want to perform an action on a specific Virtual Machine, then from **Actions** select the **ellipses(...)** given against the desired Virtual Machine. You will have **Start, Stop and Restart** as your options, select the required action.
+9. In case you want to perform an action on a specific Virtual Machine, then from **Actions** select the **ellipses(...)** given against your desired Virtual Machine. As your options, you will have **Start, Stop and Restart**, so you can select the required action.
 
 ![ws name.](media/udacity-05.png)
 
-10. At last, you have **Help** tab where we have listed known issues such as Unable to copy paste, Need credentials and much more. In case if you face any of these issues, you can troubleshoot it by following the insturctions given there.
+10. At last, you have **Help** tab where we have listed known issues such as Unable to copy paste, Need credentials and much more. In case if you face any of these issues, you can troubleshoot it by following the insturctions given this section.
 
 ![ws name.](media/udacity-06.png)
 
-11. Hide the Lab guide
+11. You can also hide the Lab guide by selecting **Hide** button from top-right corner of the lab guide. 
 
 ![ws name.](media/udacity-07.png)
 
-### Enable Attendee Tracking & Time Out Operation
+12. It will take you back to the very first interface where you had the host virtual machine. 
+
+![ws name.](media/udacity-14.png)
+
+
+## Features
+
+1. Enable Attendee Tracking
+
+
+
+### **1. Enable Attendee Tracking & Time Out Operation**
+
+This feature tracks user's activity in their lab environment and perform certain actions termed as Time Out Operation. The actions are listed below:
+
+* Resource Stop - Virtual machines will be stopped.
+* Delete Environment - Lab environment will be deleted.
+
+In case a user is inactive in the lab environment for a particular span of time, then as per the configurations of the enviornment, one of the above mentioned action will be imposed on that user's environment. 
+
+The time period of inactivity by a user is termed as Environment Idle Timeout that will configured in minutes.
+
+From here we will learn more about the feature with the help of an example. 
+
+1. Let's say we have a user **User01**, he has Environment Idle Timeout set to 10 minutes and Time Out Operation set to Resource Stop.
+
+2. User01 is performing the lab, then he takes a break which means his environment will be idle till he starts again. So as per the Environment Idle Timeout, all the resources(to be precise - all the Virtual machines) of his environment will be stopped as Time out operation was set to Resource Stop.
+
+3. Once User01 is back, he will have a note similar to the image shown below. It will say that RDP Gateway is not running which means your host VM is in stopped state.
 
 ![ws name.](media/udacity-09.png)
 
+4. Now to continue the lab, User01 should start his VM again by navigating to **Lan Environment** tab **> Lab Resources.** You can see all the VMs are in deallocated state. So, select the **Start** button to start them all.
 
 ![ws name.](media/udacity-10.png)
 
+5. Select **OK** on the popup asking you to confirm **Start All Virtual Machines**.
 
 ![ws name.](media/udacity-11.png)
 
-
+6. Once the process starts, you will get a heads-up in the bottom-right corner of the guide saying **Successfully initiated the virtual machine operation**.
 
 ![ws name.](media/udacity-12.png)
 
+7. Select **Refresh** button to view the updated status of the VMs. Once the VMs are back into running state, User01 will select **Refresh** button on the screen and the host VM will launch for him.
 
 ![ws name.](media/udacity-13.png)
 
