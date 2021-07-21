@@ -8,7 +8,7 @@
 
 ![ws name.](media/udacity-01.png)
 
-2. The lab environment will start preparing and it will show you the estimated time of your deployment.
+2. The lab environment will start the deployment process and will give you an estimated time for completion.
 
 ![ws name.](media/udacity-02.png)
 
@@ -16,25 +16,25 @@
 
 ![](media/udacity-01.gif?raw=true)
 
-4. Once the lab environment is ready, you will have a host virtual machine which you will be using throughout to perform the lab.
+4. Once the lab environment is ready, you will have a host virtual machine, you will be using this throughout to perform the labs.
 
 ![ws name.](media/udacity-14.png)
 
-5. You have a slide button on the right side of the screen, select it to view the lab guide.
+5. You have a slide button on the right side of the screen, click on it to view the lab guide.
 
 ![ws name.](media/udacity-15.png)
 
-6. Here you have three tabs - **Lab Guide, Lab Environment** and **Help**. The **Lab Guide** tab has instructions in it that should be followed in order to successfully complete the lab.
+6. Here you have three tabs - **Lab Guide, Lab Environment**, and **Help**. The **Lab Guide** tab section contains various information related to the lab, typically containing multiple pages of information. You will need this information throughout the course of the labs.
 
 ![ws name.](media/udacity-16.png)
 
-7. Next you have **Lab Environment** tab in which you have **Environment Details** section, where you can find details such as _Login credentials for your User_, _VM login credentials_.
+7. Next you have the **Lab Environment** tab in which you have **Environment Details** section, where you can find details such as _Login credentials for your User_, _VM login credentials_.
 
 ![](media/udacity-02.gif?raw=true)
 
-8. In **Lab Environment** tab, you have another section that is **Lab Resources**. In this section, you will have the following items:
-* All those virtual machines listed which are present in your lab environment
-* Status of the VM as if it's running or deallocated.
+8. In the **Lab Environment** tab, you have a sub-section that is called **Lab Resources**. In this section, you will have the following information:
+* All the Virtual Machines listed which are present in your lab environment
+* Status of the Virtual Machine as if it's running or deallocated.
 * Three action buttons: 
       
      * **(1) Refresh:** Select this button to refresh the page and see the latest status of the Virtual Machines.
@@ -45,11 +45,11 @@
 
 ![ws name.](media/udacity-04.png)
 
-9. In case you want to perform an action on a specific Virtual Machine, then from **Actions** select the **ellipses(...)** given against your desired Virtual Machine. As your options, you will have **Start, Stop and Restart**, so you can select the required action.
+9. In case you want to act on a specific Virtual Machine, then from **Actions** select the **ellipses(...)** icon. Here you will have the options to **Start, Stop and Restart** the VMs as and when required.
 
 ![ws name.](media/udacity-05.png)
 
-10. At last, you have **Help** tab where we have listed known issues such as Unable to copy paste, Need credentials and much more. In case if you face any of these issues, you can troubleshoot it by following the insturctions given this section.
+10. The **Help** section covers some of the most common issues and their troubleshooting steps that can be performed by the learner. It is recommended to through the Help section before contacting the instructor or CloudLabs Support team for help, as it will save valuable time.
 
 ![ws name.](media/udacity-06.png)
 
@@ -70,14 +70,14 @@ In this section we will learn about the following features offered by CloudLabs:
 2. Enable Hot Instances 
 3. Allow User to Extend lab
 
-Let's see how each of the feature works:
+Let's see how each of the features work:
 
 **1. Enable Attendee Tracking:** This feature helps to track user's activity in their lab environment and perform certain actions termed as **Time Out Operation**. The operations are listed below:
 
 * **Resource Stop -** Virtual machines will be stopped.
 * **Delete Environment -** Lab environment will be deleted.
 
-In case a user is inactive in the lab environment for a particular span of time, then as per the configurations of the enviornment, one of the above mentioned operation will be imposed on that user's environment. The time period of inactivity by a user is termed as **Environment Idle Timeout** that will configured in minutes.
+In case a user is inactive in the lab environment for a particular period, then as per the configurations of the environment, one of the above-mentioned operations will be imposed on that user's environment. The time of inactivity by a user is termed as **Environment Idle Timeout** that will be configured in minutes.
 
 From here we will learn more about the feature with the help of an example. 
 
@@ -85,13 +85,13 @@ From here we will learn more about the feature with the help of an example.
 * **Environment Idle Timeout** set to **10 minutes** 
 * **Time Out Operation** set to **Resource Stop**
 
-2. User01 is performing the lab, then he takes a break which means his environment will be idle till he starts again. So as per the **Environment Idle Timeout**, once he reaches to the inacitvity time limit(i.e., 10 minutes), all the resources of his environment will stop of as **Time out operation** was set to **Resource Stop**.
+2. User01 is performing the lab, then he takes a break which means his environment will be idle till he starts again. So as per the **Environment Idle Timeout**, once he reaches the inactivity time limit(i.e., 10 minutes), all the resources of his environment will stop of as **Time out operation** was set to **Resource Stop**.
 
-3. Once User01 is back, he will have a note similar to the image shown below. It will say that **RDP Gateway is not running** which means your host VM is in stopped state.
+3. Once User01 is back, he will have a note similar to the image shown below. It will say that **RDP Gateway is not running** which means your host VM is in a stopped state.
 
 ![ws name.](media/udacity-09.png)
 
-4. Now to continue the lab, User01 should start his VM again by navigating to **Lan Environment** tab **> Lab Resources.** You can see all the VMs are in deallocated state. So, select the **Start** button to start them all.
+4. Now to continue the lab, User01 should start his VM again by navigating to **Lan Environment** tab **> Lab Resources.** You can see all the VMs are in the deallocated state. So, select the **Start** button to start them all.
 
 ![ws name.](media/udacity-10.png)
 
@@ -108,7 +108,7 @@ From here we will learn more about the feature with the help of an example.
 ![ws name.](media/udacity-13.png)
 
 
-**2. Enable Hot Instances:** Hot instance is basically a lab environment which is deployed and made available sometime before a workshop begins.
+**2. Enable Hot Instances:** Hot instance is a lab environment that is deployed and made available sometime before a workshop begins.
 
  * For an actual workshop, we deploy hot instances depending on the projected user count. Those many instances will be made available 30 minutes before the Workshop Start Time.
 
@@ -118,20 +118,21 @@ From here we will learn more about the feature with the help of an example.
 
 * **Optimize Hot Instances VM Cost:** This feature works in a way where as soon as hot instances are ready, it shutdowns the resources to optimize the cost. A **Delay time** is provided here, say 5 minutes. So once the hot instances are ready, it will wait for 5 minutes and then stop the resources.
 
-* **Limit Hot Instance Life:** In this feature, a duration is setup to delete the hot instances. Once the duration is exhausted, hot instance will delete. This feature is used to avoid having unused hot instances.
+* **Limit Hot Instance Life:** In this feature, duration is set up to delete the hot instances. Once the duration is exhausted, a hot instance will delete. This feature is used to avoid having unused hot instances.
 
-  Let's say, for a workshop we have user count less than expected, so we will end up with unused hot instances. In this case, this feature will act according to the duration setup in it, such as we setup 60 minutes. Therefore, if a hot instance is not allocated to a user till 60 minutes, it will automatically get deleted.
+  Let's say, for a workshop we have a user count less than expected, so we will end up with unused hot instances. In this case, this feature will act according to the duration set up in it, such as we set up 60 minutes. Therefore, if a hot instance is not allocated to a user for 60 minutes, it will automatically get deleted.
 
 
 
-**3. Allow User to Extend lab:** This feature helps a user to extend the duration of their lab environment. One can setup the limit of duration extension for a user, this duration will be added up with their actual lab duration.
+**3. Allow User to Extend lab:** This feature helps a user to extend the duration of their lab environment. One can set up the limit of duration extension for a user, this duration will be added up with their actual lab duration.
 
-* For example, a user is performing a lab with lab duration of 60 minutes. Now using this feature, a duration of 30 minutes setup. 
+* For example, a user is performing a lab with a lab duration of 60 minutes. Now using this feature, a duration of 30 minutes set up. 
       
-     * When user will be left with 15 minutes, he will get a popup message asking him if he wants to extend his lab for 15 minutes. 
-     * In case user is not done with the lab, he can opt-in to extend the duration. The popup will come on a gap of 15 minutes each. 
+     * When the user will be left with 15 minutes, he will get a popup message asking him if he wants to extend his lab for 15 minutes. 
+     * In case a user is not done with the lab, he can opt-in to extend the duration. The popup will come on a gap of 15 minutes each. 
      * As we had a limit of 30 minutes, the user will get the extension popup twice that makes 15 minutes + 15 minutes = 30 minutes i.e., total extension limit.
      * This way, user will have 90 minutes in total to perform the lab.
+
 
 
 
