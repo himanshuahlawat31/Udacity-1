@@ -2,7 +2,6 @@
 
 
 
-
 ## Getting Started
 
 1. On the Lab page, you will have the lab environment on the right side. To access the Lab environment select **ACCESS LAB**.
@@ -110,10 +109,19 @@ From here we will learn more about the feature with the help of an example.
 ![ws name.](media/udacity-13.png)
 
 
-### **2. Enable Hot Instances**
+**2. Enable Hot Instances:** Hot instance is basically a lab environment which is deployed and made available sometime before a workshop begins.
 
+ * For an actual workshop, we deploy hot instances depending on the projected user count. Those many instances will be made available 30 minutes before the Workshop Start Time.
 
+* Next, when a user will register, the hot instance(i.e., the pre-deployed lab environment) will get allocated to instantly which results in **Zero wait time for users**. As soon they launch the lab, they will get the lab environment.
 
+* This feature reduces risk or any kind of deployment issues. In case there's an issue, it can be fixed in advance as they are deployed earlier from the Workshop time.
+
+* **Optimize Hot Instances VM Cost:** This feature works in a way where as soon as hot instances are ready, it shutdowns the resources to optimize the cost. A **Delay time** is provided here, say 5 minutes. So once the hot instances are ready, it will wait for 5 minutes and then stop the resources.
+
+* **Limit Hot Instance Life:** In this feature, a duration is setup to delete the hot instances. Once the duration is exhausted, hot instance will delete. This feature is used to avoid having unused hot instances.
+
+Let's say, for a workshop we have user count less than expected, so we will end up with unused hot instances. In this case, this feature will act according to the duration setup in it, such as we setup 60 minutes. Therefore, if a hot instance is not allocated to a user till 60 minutes, it will automatically get deleted.
 
 
 
@@ -124,13 +132,6 @@ From here we will learn more about the feature with the help of an example.
 Allow User to Extend lab
 
 if enabled u get - Max Limit of Duration Extension by User (Minutes) 
-
-
-Enable Hot Instances 
-if enabled u get - Optimize Host Instances VM Cost 
-
-Delay Time (in Minutes)  Minimum Available Instances  Limit Hot Instance Life    Hot Instance Life Time (Minutes) 
-
 
 
 
