@@ -1,9 +1,6 @@
 # CloudLabs Features
 
-![](media/udacity-01.gif?raw=true)
 
-
-![ws name.](media/upd10-1.png)
 
 
 ## Getting Started
