@@ -67,9 +67,12 @@
 
 1. Enable Attendee Tracking
 
+2. Enable Hot Instances 
+
+3. Allow User to Extend lab
 
 
-### **1. Enable Attendee Tracking & Time Out Operation**
+### **1. Enable Attendee Tracking**
 
 **Enable Attendee Tracking** feature helps to track user's activity in their lab environment and perform certain actions termed as **Time Out Operation**. The operations are listed below:
 
@@ -107,6 +110,7 @@ From here we will learn more about the feature with the help of an example.
 ![ws name.](media/udacity-13.png)
 
 
+### **2. Enable Hot Instances**
 
 
 
