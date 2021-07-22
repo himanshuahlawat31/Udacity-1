@@ -128,9 +128,15 @@ From here we will learn more about the feature with the help of an example.
 
 * For example, a user is performing a lab with a lab duration of 60 minutes. Now using this feature, a duration of 30 minutes set up. 
       
-     * When the user will be left with 15 minutes, he will get a popup message asking him if he wants to extend his lab for 15 minutes. 
-     * In case a user is not done with the lab, he can opt-in to extend the duration. The popup will come on a gap of 15 minutes each. 
+     * When the user will be left with 15 minutes, he will get a popup message asking him if he wants to extend his lab for 15 minutes. In case a user is not done with the lab, he can opt-in to extend the duration by selecting **OK** on the popup message.
+     
+     ![ws name.](media/udacity-17.png)
+ 
+     * The popup will come on a gap of 15 minutes each. 
      * As we had a limit of 30 minutes, the user will get the extension popup twice that makes 15 minutes + 15 minutes = 30 minutes i.e., total extension limit.
+
+     ![ws name.](media/udacity-19.png)
+
      * This way, user will have 90 minutes in total to perform the lab.
 
 
