@@ -112,7 +112,9 @@ From here we will learn more about the feature with the help of an example.
 
  * For an actual workshop, we deploy hot instances depending on the projected user count. Those many instances will be made available 30 minutes before the Workshop Start Time.
 
-* Next, when a user will register, the hot instance(i.e., the pre-deployed lab environment) will get allocated to instantly which results in **Zero wait time for users**. As soon they launch the lab, they will get the lab environment.
+* Next, when a user will register, the hot instance(i.e., the pre-deployed lab environment) will get allocated to instantly which results in **Zero wait time for users**. As soon they launch the lab, they will get the lab environment. Following is a representation of how a lab environment launches without any waiting time for users.
+
+![](media/udacity-03.gif?raw=true)
 
 * This feature reduces risk or any kind of deployment issues. In case there's an issue, it can be fixed in advance as they are deployed earlier from the Workshop time.
 
