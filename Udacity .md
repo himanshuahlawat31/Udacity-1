@@ -1,5 +1,4 @@
-# CloudLabs Features
-
+# CloudLabs Feature Documentation
 
 
 ## Getting Started
